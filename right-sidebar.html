@@ -1,0 +1,266 @@
+<!DOCTYPE HTML>
+<!--
+	Iridium by TEMPLATED
+    templated.co @templatedco
+    Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+<style>
+
+   .red-text {
+    color: rgb(251, 99, 129);
+    }
+   .blue-text {
+    color: rgb(0, 0, 255);
+    }
+   .yellow-text {
+    color: rgb(210, 210, 0);
+    }
+</style>
+	<head>
+		<title>Iridium by TEMPLATED</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link href='http://fonts.googleapis.com/css?family=Arimo:400,700' rel='stylesheet' type='text/css'>
+		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-panels.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel-noscript.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-desktop.css" />
+		</noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Header -->
+		<div id="header">
+			<div class="container"> 
+				
+				<!-- Logo -->
+				<div id="logo">
+					<h1><a href="#">阿瓦隆</a></h1>
+				</div>
+				
+				<!-- Nav -->
+				<nav id="nav">
+					<ul>
+						<li class="active"><a href="index.html">遊戲規則</a></li>
+						<li class="active"><a href="left-sidebar.html">道具介紹</a></li>
+						<li class="active"><a href="right-sidebar.html">角色陣營</a></li>
+						<li class="active"><a href="no-sidebar.html">湖中女神與其他</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+
+		<!-- Main -->
+		<div id="main">
+			<div class="container">
+				<div class="row"> 
+
+					<!-- Content -->
+					<div id="content" class="8u skel-cell-important">
+						<section>
+							<header>
+							<h2 class="blue-text">正義方</h2>
+							</header>
+
+							<font size="5" class="blue-text">梅林：可以看到邪方陣營的身分而邪方陣營不會知道</font>
+							<h2 style="color: white;">.</h2>
+							<font size="5" class="blue-text">派西維爾：可以看到梅林跟魔甘娜，但他無法分辨兩人</font>
+							<h2></h2> 
+							<h2 style="color: white;">.</h2>                           
+							<font size="5" class="blue-text">忠臣:沒有能力</font>
+							<h2></h2> 
+							<h2 style="color: white;">.</h2>
+							<font size="5" class="blue-text">忠臣:沒有能力!</font>
+							<h2 style="color: white;">.</h2>
+							<font size="5" class="blue-text">忠臣:沒有能力!!</font>
+							<h2 style="color: white;">.</h2>
+							<h2 style="color: white;">.</h2>
+							<h2 style="color: white;">.</h2> 
+							<h2 style="color: white;">.</h2>
+							<h2 style="color: white;">.</h2>
+							<h2 style="color: white;">.</h2> 
+							<h2 style="color: white;">.</h2>
+							<h2 style="color: white;">.</h2>																	                     
+							<img title="007" src="https://pic.pimg.tw/bodbodbod/1390051929-3052489158_l.jpg" alt="007" width="500" height="374" border="0">
+
+						</section>
+					</div>
+					
+					<!-- Sidebar -->
+					<div id="sidebar" class="4u">
+						<section>
+							<header>
+							<font size="10" class="red-text">邪惡方</font>
+							</header>
+							<ul class="style">
+							<h2 class="red-text">莫德雷德：宣告階段，邪方陣營互相認識他可以張眼，但是當梅林確認時他不用伸拇指(梅林不知道他是誰)</h2>
+							<h2 class="red-text">魔甘娜：宣告階段時，派西維爾會看到他跟梅林一起出現(以梅林身分登場)</h2>
+							<h2 class="red-text">刺客：最後邪惡爪牙刺殺梅林</h3>
+							<h2 class="red-text">奧伯倫：宣告階段，邪方陣營互認時他不用表明身分，但是當梅林確認時他需要伸拇指(他不知道隊友是誰)</h2>
+							<h2 class="red-text">爪牙:沒有能力</h3>
+							<img title="008" src="https://pic.pimg.tw/bodbodbod/1390051943-1570427449_l.jpg" alt="008" width="500" height="374" border="0">
+							</ul>
+						</section>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>普通提示框和确认提示框</title>
+    <script src="js/jquery-1.11.1.js"></script>
+    <style type="text/css">
+        *{margin: 0;padding: 0;}
+        /***** 遮罩 *****/
+        /* .mask{background:rgba(0,0,0,0.2); width:100%; height:100%;position:fixed;top:0;left:0;
+        background:url("${pageContext.request.contextPath}/images_/mask.png")\9;z-index:999;} */
+        .mask_box{width:100%; height:100%;position:absolute;top:53%;left:0;background:rgba(0,0,0,0.2);
+            width:100%; height:100%;background:url("img/mask.png")\9;
+            z-index:999;}
+
+        /***** 提示框 *****/
+        /* .prompt_box{width:400px;height:200px;background:#ffffff;border-radius:6px;
+            position:fixed;top:50%; left:50%; margin-left:-200px;margin-top:-100px;overflow:hidden;} */
+        .prompt_box{width:400px;height:200px;background:#ffffff;border-radius:6px;
+            position:absolute;top:-50%; left:50%; margin-left:-200px;margin-top:-100px;overflow:hidden;}
+        .prompt_box .prompt_title{height:40px;padding-left:20px;border-bottom:2px solid #096075;background:#e6e6e6;position: relative;}
+        .prompt_box .prompt_title h3{font-size:16px;color:#096075;margin-top:0;line-height:40px;}
+        .prompt_box .prompt_cancel{width:24px;height:24px;cursor: pointer;
+            background: url("img/cancel.png") no-repeat;
+            position: absolute;right:0;top:0;}
+
+        .prompt_box .prompt_cont{position: relative;height:158px;}
+        .prompt_box .prompt_cont .prompt_text{line-height:140px;text-align:center;}
+        .prompt_box .prompt_cont .prompt_sure,.prompt_box .prompt_cont .prompt_no,.prompt_box .prompt_cont .prompt_ok{position: absolute;bottom:20px;
+            width:50px;height: 26px;border-radius:5px;color:#ffffff;
+            font-size: 14px;line-height:26px;text-align:center;cursor: pointer;}
+        .prompt_box .prompt_cont .prompt_sure,.prompt_box .prompt_cont .prompt_ok{background:#1a9ebf;right:20px;}
+        .prompt_box .prompt_cont .prompt_no{background:#cccccc;right:90px;color:#1a1a1a;}
+
+        .hide{display:none;}
+        .show{display:block;}
+    </style>
+</head>
+<body>
+
+
+
+<div class="mask_box hide">
+
+    <div class="mask">
+        <div class="prompt_box">
+            <div class="prompt_title">
+                <h3>提示</h3>
+                <span class="prompt_cancel"></span>                       <!-- 关闭提示，取消按钮 -->
+            </div>
+            <div class="prompt_cont">
+                <p class="prompt_text prompt_out_text"></p>
+                <span class="prompt_ok hide">確定</span>            <!--    确认提示：确定执行按钮 -->
+            </div>
+        </div>
+    </div>
+
+
+
+
+</div>
+
+
+
+<script type="text/javascript">
+
+$(function(){
+
+
+    /*弹出确认提示框*/
+    $('.button').click(function () {
+        promptSure();
+        $('.prompt_text').text('上升負荷，噁心想吐');
+    });
+
+    /*弹出确认确认按钮*/
+    $('.prompt_ok').click(function(){
+
+        /*关闭确认提示框*/
+        $(this).parents('.mask_box').addClass('hide');
+        /*弹出普通提示框*/
+
+
+
+    })
+
+    promptClose();  //提示关闭
+
+
+})
+
+
+
+
+
+    /* 确认框显示 */
+    function promptSure(){
+        $('.prompt_no').removeClass('hide');
+        $('.prompt_ok').removeClass('hide');
+        $('.prompt_sure').addClass('hide');
+        $('.mask_box').removeClass('hide');
+    }
+
+    /* 提示框关闭*/
+    function promptClose(){
+        $('.prompt_no,.prompt_sure,.prompt_cancel').click(function () {
+            $(this).parents('.mask_box').addClass('hide');
+        });
+    }
+
+
+
+
+</script>
+
+</body>
+
+
+
+
+		<!-- Footer -->
+<div id="featured">
+			<div class="container">
+				<div class="row">
+					<div class="4u">
+						<p><a href="#" class="button">TOP</a></p>
+					</div>
+					<div class="4u">
+						<p><a href="#" class="button">電梯向上</a></p>
+					</div>
+					<div class="4u">
+						<p><a href="#" class="button">回頂端</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- Footer -->
+
+		<!-- Copyright -->
+		<div id="copyright">
+			<div class="container">
+				Design: <a href="http://templated.co">TEMPLATED</a> Images: <a href="http://unsplash.com">Unsplash</a> (<a href="http://unsplash.com/cc0">CC0</a>)
+			</div>
+		</div>
+		
+	</body>
+</html>
